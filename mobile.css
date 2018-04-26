@@ -1,0 +1,56 @@
+/* Tablet Styles */
+@media screen and (min-width: 850px) {
+
+  .circles {
+    display: block;
+  }
+
+  .info {
+  flex-direction: column;
+  }
+}
+
+
+/* desktop styles */
+
+@media screen and (min-width: 850px) {
+
+  main {
+  margin: 10rem 3rem;
+  }
+
+  .info {
+    flex-direction: row;
+  }
+
+  .info p {
+    width: 50%;
+  }
+
+  nav {
+    flex-direction: row;
+    height: 10rem;
+  }
+
+  .nav_links:last-child {
+    margin-top: 0;
+  }
+
+  ul {
+  flex-direction: row;
+  }
+
+  ul button {
+    width: 13rem;
+  }
+
+  .circles {
+    height: 35rem;
+    width: 35rem;
+    margin-right: 1rem;
+  }
+
+  .scroll_down {
+    width: 13rem;
+  }
+}
